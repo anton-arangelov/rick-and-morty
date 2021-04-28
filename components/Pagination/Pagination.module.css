@@ -1,0 +1,24 @@
+.Pagination{
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    padding-top: 20px;
+    margin: 1.2em auto;
+  }
+  .Element{
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #DDDDDD;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .Element:hover{
+    background-color: #DDDDDD;
+  }
+  Element.active{
+    background-color: #4CAF50;
+  }
